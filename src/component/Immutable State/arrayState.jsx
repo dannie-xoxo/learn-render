@@ -9,6 +9,7 @@ function ArrayState() {
         newPersons.push('Kdee')
         newPersons.push('Dave')
         setPersons(newPersons)
+        
     }
     console.log('array state updating.....')
     return ( 
