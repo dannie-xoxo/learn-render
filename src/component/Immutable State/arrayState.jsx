@@ -9,7 +9,7 @@ function ArrayState() {
         const newPersons = [...persons]
         newPersons.push('Kdee')
         newPersons.push('Dave')
-        setPersons(newPersons)
+        setPersons(newPersons) 
         
     }
     console.log('array state updating.....')
