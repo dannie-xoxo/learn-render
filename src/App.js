@@ -8,6 +8,7 @@ import OptParent from './component/Optimization/OptParent';
 import Parent from './component/Parent Child/parent';
 import UseReducer from './component/UseReducer/UseReducer';
 import UseState from './component/UseState/UseState';
+import OptParent2 from './component/Optimization/OptParent2';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <OptParent>
         <OptChild />
       </OptParent> */}
-      <OptGrandParent />
+      {/* <OptGrandParent /> */}
+      <OptParent2 />
     </div>
   );
 }
